@@ -1,5 +1,6 @@
 # 
 # Copyright (C) 2018 The PixelExperience Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,12 +26,12 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_whyred
+PRODUCT_NAME := lineage_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
