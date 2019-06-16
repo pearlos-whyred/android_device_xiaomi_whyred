@@ -1,10 +1,19 @@
-Copyright (C) 2018-2019 The PixelExperience Open Source Project
+# android_device_xiaomi_whyred
+LineageOS and TWRP Device Configuration for Redmi Note 5
 
-The Redmi Note 5 (codenamed _"whyred"_) are high-end mid-range smartphones from Xiaomi.
+### Roomservice
 
-Xiaomi Redmi Note 5 was announced and released in March 2018.
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="GuaiYiHu/android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="github" revision="mkp" />
+  <project name="MyCats/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+</manifest>
+```
 
-## Device specifications
+### Device specifications
 
 | Device       | Xiaomi Redmi Note 5                         |
 | -----------: | :---------------------------------------------- |
@@ -12,7 +21,7 @@ Xiaomi Redmi Note 5 was announced and released in March 2018.
 | CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
 | GPU          | Adreno 509                                      |
 | Memory       | 4GB / 6GM RAM (LPDDR4X)                         |
-| Shipped Android version | 8.1.0                              |
+| Shipped Android version | 9.0.0                              |
 | Storage      | 64GB eMMC 5.1 flash storage                     |
 | Battery      | Non-removable Li-Po 4000 mAh                    |
 | Dimensions   | 158.6 x 75.4 x 8.05 mm                          |
@@ -21,6 +30,3 @@ Xiaomi Redmi Note 5 was announced and released in March 2018.
 | Rear camera 2 | 5MP, 1.12-micron pixels, f/2.0                |
 | Front camera | 20MP, 1-micron pixels, f/2.2 1080p 30 fps video, Selfie-light|
 
-## Device picture
-
-![Xiaomi Redmi Note 5 Pro](https://www1-lw.xda-cdn.com/files/2018/02/Xiaomi-Redmi-Note-5-and-Redmi-Note-5-Pro-Forums-now-Open.png)
