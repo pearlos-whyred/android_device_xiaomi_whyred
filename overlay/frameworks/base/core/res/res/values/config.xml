@@ -578,4 +578,8 @@
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
+
+    <!-- Whether we have a multi coloured battery LED or not -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
 </resources>
