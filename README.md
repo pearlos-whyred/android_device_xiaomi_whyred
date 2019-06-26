@@ -6,9 +6,9 @@ LineageOS and TWRP Device Configuration for Redmi Note 5
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0-uo" />
   <project name="GuaiYiHu/android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="github" revision="mkp" />
-  <project name="MyCats/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="MyCats/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0-uo" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 </manifest>
 ```
