@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PearlOS stuff.
+$(call inherit-product, vendor/pearl/config/common.mk)
 
-PRODUCT_NAME := lineage_whyred
+PRODUCT_NAME := pearl_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -42,3 +42,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "xiaomi/whyred/whyred:9/PKQ1.180904.001/V10.3.1.0.PEIMIXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
+  
+PEARL_BUILD_TYPE := OFFICIAL
+PEARL_MAINTAINER := namdeptrai2003
+CPU_MODEL := "Snapdragon_636"
